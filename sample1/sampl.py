@@ -28,7 +28,8 @@ def livestream():
 					"username":"openrelayproject",
 					"credential":"openrelayproject",},],},
 					
-					video_processor_factory=VideoProcessor)
+					video_processor_factory=VideoProcessor,
+		       			media_stream_constraints={"video":True, "audio":False})
 					
 					
 livestream()
