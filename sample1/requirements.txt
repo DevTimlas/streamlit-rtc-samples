@@ -7,3 +7,7 @@ pycocotools
 opencv-python-headless
 pillow
 av
+mediapipe
+numpy
+tensorflow==2.5.0
+tensorflow-addons
