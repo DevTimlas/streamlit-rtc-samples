@@ -13,7 +13,7 @@ import numpy as np
 
 F1Score = mt.F1Score(num_classes=2, threshold=.5)
 
-model = load_model('/home/tim/PycharmProjects/DataScience/computer_vision/RTMSD/model.h5',
+model = load_model('./model.h5',
  compile=False, custom_objects={'F1Score':F1Score})
 
 results={0:'mask',1:'no mask'}
@@ -22,7 +22,7 @@ GR_dict={0:(0,0,255),1:(0,255,0)}
 rect_size = 4
 
 
-haarcascade = cv2.CascadeClassifier('/home/tim/anaconda3/envs/tf/lib/python3.7/site-packages/cv2/data/haarcascade_frontalface_default.xml')
+haarcascade = cv2.CascadeClassifier('./haarcascade_frontalface_default.xml')
 
 def livestream():
 	class VideoProcessor():
