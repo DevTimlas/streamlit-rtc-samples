@@ -13,28 +13,25 @@ def livestream():
 			
 			
 	webrtc_streamer(key="example",
-					rtc_configuration={"iceServers":[
-					
-					{"urls":"stun:openrelay.metered.ca:80",},
-					
-					{"urls":"turn:openrelay.metered.ca:80",
-					"username":"openrelayproject",
-					"credential":"openrelayproject",},
-					
-					{"urls":"turn:openrelay.metered.ca:443",
-					"username":"openrelayproject",
-					"credential":"openrelayproject",},
-					
-					{"urls":"turn:openrelay.metered.ca:443?transport=tcp",
-					"username":"openrelayproject",
-					"credential":"openrelayproject",},],},
-					
-					video_processor_factory=VideoProcessor,
-<<<<<<< HEAD
-					media_stream_constraints={"video":True, "audio":False})
-=======
-		       			media_stream_constraints={"video":True, "audio":False})
->>>>>>> c084d866cc30fdf28aed30819498d9052a0cc554
+			rtc_configuration={"iceServers":[
+
+				{"urls":"stun:openrelay.metered.ca:80",},
+
+				{"urls":"turn:openrelay.metered.ca:80",
+				"username":"openrelayproject",
+				"credential":"openrelayproject",},
+
+				{"urls":"turn:openrelay.metered.ca:443",
+				"username":"openrelayproject",
+				"credential":"openrelayproject",},
+
+				{"urls":"turn:openrelay.metered.ca:443?transport=tcp",
+				"username":"openrelayproject",
+				"credential":"openrelayproject",},],},
+
+			video_processor_factory=VideoProcessor,
+			media_stream_constraints={"video":True, "audio":False})
+		       	
 					
 					
 livestream()
