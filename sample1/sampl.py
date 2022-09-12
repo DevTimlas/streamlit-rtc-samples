@@ -1,6 +1,7 @@
 import streamlit as st
 import av
 from streamlit_webrtc import *
+import cv2
 
 def livestream():
 	class VideoProcessor():
