@@ -3,6 +3,12 @@ from streamlit_webrtc import *
 import os
 import av
 
+from absl import logging
+
+logging.set_verbosity(logging.ERROR)
+
+import cv2
+
 def livestream():
 	class VideoProcessor():
 		def recv(self, frame):
