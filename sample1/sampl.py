@@ -3,7 +3,6 @@ import mediapipe as mp
 from streamlit_webrtc import *
 import os
 import av
-import cv2
 
 def livestream():
 	class VideoProcessor():
