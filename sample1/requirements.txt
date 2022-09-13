@@ -1,3 +1,4 @@
+mediapipe
 streamlit
 streamlit_webrtc
 protobuf==3.19
