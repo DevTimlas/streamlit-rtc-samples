@@ -1,3 +1,4 @@
 libportaudio2
 ffmpeg
 libgl1
+libgl1-mesa-glx
