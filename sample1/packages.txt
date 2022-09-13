@@ -1,2 +1,3 @@
 libportaudio2
 ffmpeg
+python3-opencv
