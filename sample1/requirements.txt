@@ -6,6 +6,6 @@ packaging==20.9
 tensorflow==2.9.0
 pycocotools
 mediapipe
-opencv-python-headless==4.3.0.38
+opencv-python-headless==4.5.5.64
 pillow
 av
