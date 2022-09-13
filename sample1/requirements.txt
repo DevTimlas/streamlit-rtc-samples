@@ -4,10 +4,10 @@ protobuf==3.19
 folium==0.2.1
 packaging==20.9
 pycocotools
-opencv-python-headless
-pillow
-av
 mediapipe
 numpy
 tensorflow==2.5.0
 tensorflow-addons
+opencv-python-headless
+pillow
+av
