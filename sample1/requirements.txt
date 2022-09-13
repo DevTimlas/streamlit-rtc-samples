@@ -8,3 +8,4 @@ pycocotools
 opencv-python-headless
 pillow
 av
+mediapipe
