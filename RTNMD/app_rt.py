@@ -13,7 +13,7 @@ import numpy as np
 
 F1Score = mt.F1Score(num_classes=2, threshold=.5)
 
-model = load_model('./streamlit-rtc-samples/RTNMD/model.h5',
+model = load_model('./RTNMD/model.h5',
  compile=False, custom_objects={'F1Score':F1Score})
 
 results={0:'mask',1:'no mask'}
@@ -22,7 +22,7 @@ GR_dict={0:(0,0,255),1:(0,255,0)}
 rect_size = 4
 
 
-haarcascade = cv2.CascadeClassifier('./streamlit-rtc-samples/RTNMD/haarcascade_frontalface_default.xml')
+haarcascade = cv2.CascadeClassifier('./RTNMD/haarcascade_frontalface_default.xml')
 
 def livestream():
 	class VideoProcessor():
