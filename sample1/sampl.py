@@ -1,5 +1,4 @@
 import streamlit as st
-import mediapipe as mp
 from streamlit_webrtc import *
 import os
 import av
