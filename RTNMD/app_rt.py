@@ -1,5 +1,5 @@
 import cv2
-import mediapipe as mp
+
 from streamlit_webrtc import *
 import streamlit as st
 import os
